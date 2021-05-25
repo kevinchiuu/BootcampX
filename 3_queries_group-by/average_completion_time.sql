@@ -3,4 +3,4 @@ FROM assignment_submissions
 JOIN assignment_submissions ON students_id = student_id
 WHERE end_date IS NULL
 GROUP BY student 
-ORDER BY avg_submission_time DESC
+ORDER BY avg_submission_time DESC;
